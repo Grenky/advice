@@ -1,0 +1,46 @@
+.imgs_main {
+    width: 100%;
+    height: 450px;
+    margin-top: 20px; 
+}
+
+.imgs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.skinny, .sporty, .fat {
+    background-size: cover;
+    background-position: center;
+}
+.skinny {
+    background-image: url(../images/photo_2021-09-30_16-18-24.jpg); 
+    width: 200px;
+    height: 350px;
+    border-radius: 70px;
+    
+}
+.texts {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.text__skinny, .text__sporty, .text__fat{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sporty {
+    background-image: url(../images/photo_2021-09-30_16-18-04.jpg);
+    width: 350px;
+    height: 370px;
+    border-radius: 200px;
+
+}
+.fat {
+    background-image: url(../images/Iz-Multikov-11.jpg);
+    width: 270px;
+    height: 350px;
+
+}
+
